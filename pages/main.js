@@ -41,7 +41,7 @@ export default function Main() {
       <StyledLogo src="/start/whiteBG.png" />
       <Margin size="20" />
       <StyledText size="12">
-        여기는 <strong>Free Wi-Fine Zone</strong>입니다.
+        이곳은 <strong>Free Wi-Fine Zone</strong>입니다.
         <br />
         당신은 인하대학교에 <strong>만족(Fine)</strong>하신가요?
         <br />

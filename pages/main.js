@@ -71,7 +71,7 @@ export default function Main() {
         <br />
         5월 17일부터 5월 25일까지 진행하는
         <br />
-        <strong>SNS 이벤트</strong>도 많은 참여 부탁드립니다.
+        <strong>SNS이벤트</strong>도 많은 참여 부탁드립니다.
       </StyledText>
       <Margin size="50" />
       <StyledLogo src="/start/whiteBG.png" />

@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Margin from "../components/Margin";
 import Text from "../components/Text";
 import Button from "../components/Button";
+import Link from "next/link";
 
 const StyledText = styled(Text)`
   color: ${(props) => props.color};
@@ -75,7 +76,11 @@ export default function Main() {
       <Margin size="50" />
       <StyledLogo src="/start/whiteBG.png" />
       <Margin size="30" />
-      <Button>주변 학우에게 여론조사 소개하기</Button>
+      <Button>
+        <a href="https://www.instagram.com/inhabor_13/">
+          SNS 이벤트 안내 카드뉴스 확인하기
+        </a>
+      </Button>
     </Layout>
   );
 }

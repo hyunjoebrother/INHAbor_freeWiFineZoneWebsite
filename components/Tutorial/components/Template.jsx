@@ -11,7 +11,7 @@ const Animation = styled.div`
 
 const Title = styled.div`
   width: 100%;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   line-height: 1.3;
   letter-spacing: -2px;
@@ -19,16 +19,17 @@ const Title = styled.div`
 
 const StyledTitle = styled.div`
   width: 100%;
-  font-size: 40px;
-  color: #f68b81;
+  font-size: 22px;
+  color: #0065b3;
   text-align: center;
+  font-weight: 600;
   line-height: 1.3;
   letter-spacing: -2px;
 `;
 
 const Subtitle = styled.div`
   width: 100%;
-  font-size: 16px;
+  font-size: 14px;
   color: #686868;
   text-align: center;
   font-weight: 300;
@@ -63,14 +64,16 @@ export default function Template({ animation, title, subtitle, last }) {
       {last && (
         <>
           <StyledTitle>{title}</StyledTitle>
-          <Margin size={60} />
+          <Margin size={18} />
+          <Subtitle>{subtitle}</Subtitle>
+          <Margin size={40} />
           <StyledButton
-            backgroundColor="#DF2A19"
+            backgroundColor="#0065b3"
             width="230"
             height="50"
             onClick={() => router.push("/login")}
           >
-            시작하기
+            여론조사 참여하기
           </StyledButton>
         </>
       )}

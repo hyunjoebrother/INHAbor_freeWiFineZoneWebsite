@@ -82,25 +82,19 @@ const Tutorial = () => {
             animation={<AnimationA animation={focused === 0} />}
             title={
               <>
-                세상에 단 하나밖에 없는
+                감사합니다!
                 <br />
-                헌혈증을 만들어드릴게요!
+                학우분의 작은 관심이 인하대학교에 연결되었습니다.
               </>
             }
-            subtitle="직접 선택한 이미지와 문구를 바탕으로 나만의 헌혈증을 만들어드려요."
+            subtitle="올바른 학생사회와 학교를 위하여 계속해서 노력하는 인하대학교 총대의원회가 되겠습니다."
           />
         </Item>
         <Item>
           <Template
             animation={<AnimationB animation={focused === 1} />}
-            title={
-              <>
-                나만의 헌혈증을
-                <br />
-                SNS에 공유하세요!
-              </>
-            }
-            subtitle="#세상에 #단하나뿐인 #헌혈증 #BLOV"
+            title={<>이곳은 Free Wi-Fine ZONE입니다.</>}
+            subtitle="당신은 인하대학교에 만족(Fine)히신가요?"
           />
         </Item>
         <Item>
@@ -108,19 +102,20 @@ const Tutorial = () => {
             animation={<AnimationC animation={focused === 2} />}
             title={
               <>
-                당신의 헌혈증을
+                본 여론조사의 의미는,
                 <br />
-                가치있게 사용하세요!
+                학생과 학생자치기구, 그리고 학교 간의 연결과 소통
               </>
             }
-            subtitle="당신의 따뜻한 마음이 환자의 목숨을 살릴 수 있습니다."
+            subtitle="와이파이 연결이 약하고 끊기면 답답함과 불편함을 느끼듯
+            본 여론조사는 중요한 소통구입니다."
           />
         </Item>
         <Item>
           <Template
             animation={<AnimationD animation={focused === 3} />}
-            title={"BLOV"}
-            subtitle="가이드를 찾는 다른 여행자들에게 즐거운 후기를 공유해주세요."
+            title={"이곳은 Free Wi-Fine Zone입니다."}
+            subtitle="자유롭게(Free) 여러분의 의견을 들려주세요."
             last
           />
         </Item>

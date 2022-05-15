@@ -31,7 +31,7 @@ export default function Header() {
     <HeaderWrapper>
       <ElementWrapper>
         <StyledText size="20" color="#000">
-          Free Wi-Fine Zone
+          Free Wi-Fine ZONE
         </StyledText>
       </ElementWrapper>
     </HeaderWrapper>

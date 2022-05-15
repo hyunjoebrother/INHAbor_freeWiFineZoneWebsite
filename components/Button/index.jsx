@@ -12,6 +12,7 @@ const Button = styled.button`
   font-weight: ${(props) => (props.fontWeight ? props.fontWeight : "600")};
   color: ${(props) => (props.color ? props.color : "#0065B3")};
   z-index: inherit;
+
   &:hover {
     background-color: #0065b3;
     color: #fff;

@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Margin from "../components/Margin";
 import Text from "../components/Text";
 import Button from "../components/Button";
+import Tutorial from "../components/Tutorial";
 import Link from "next/link";
 
 const StyledText = styled(Text)`
@@ -27,7 +28,9 @@ export default function Main() {
       <Flex justify="center" align="center">
         <Header />
       </Flex>
-      <Margin size="50" />
+      <Margin size="24" />
+      <Tutorial />
+      <Margin size="100" />
       <StyledText size="12">
         감사합니다.
         <br />
@@ -69,7 +72,7 @@ export default function Main() {
         <br />
         <strong>학생사회와 총대의원회</strong>에 대해서 많은 관심 부탁드리며
         <br />
-        5월 17일부터 5월 25일까지 진행하는
+        5월 17일부터 5월 26일까지 진행하는
         <br />
         <strong>SNS이벤트</strong>도 많은 참여 부탁드립니다.
       </StyledText>

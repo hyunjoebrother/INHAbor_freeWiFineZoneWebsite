@@ -63,7 +63,7 @@ export default function LoginModal() {
 
   const requestLogin = () => {
     setActive((active) => !active);
-    if (password === "our@Voice!") {
+    if (password === "fine0517") {
       {
         console.log("연결성공");
         active && <Toast msg={"연결에 성공했습니다."} width={"100%"} />;

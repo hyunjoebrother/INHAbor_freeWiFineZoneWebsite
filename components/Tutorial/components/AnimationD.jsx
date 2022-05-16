@@ -17,10 +17,12 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 280px;
+  height: 260px;
+  margin-top: -30px;
 `;
 
 const Insta = styled.img`
+  margin-top: 20px;
   width: 100%;
   animation: ${heartBeat} 2s linear infinite;
 `;

@@ -22,7 +22,7 @@ const StyledLogo = styled.img`
   width: 160px;
 `;
 
-export default function Main() {
+export default function Secret() {
   return (
     <Layout>
       <Flex justify="center" align="center">

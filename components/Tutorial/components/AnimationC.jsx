@@ -20,7 +20,9 @@ const Insta = styled.img`
   -webkit-transform: scale(0.5);
   transform: scale(0.5);
   height: 240px;
-  width: 80%;
+  margin-left: 00px;
+  width: 100%;
+  text-align: center;
   animation-name: ${(props) => props.animation && scaleUp};
   animation-duration: 3s;
   animation-fill-mode: both;
@@ -28,7 +30,7 @@ const Insta = styled.img`
 
 const AnimationC = ({ animation }) => (
   <Wrapper>
-    <Insta animation={animation} src="/tutorial/questAnimate.gif" />
+    <Insta animation={animation} src="/tutorial/cuteChar.png" />
   </Wrapper>
 );
 

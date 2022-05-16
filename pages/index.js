@@ -37,10 +37,9 @@ export default function Start() {
         <meta property="og:title" content="인하대학교 여론조사" />
         <meta
           property="og:description"
-          content="당신은 인하대학교에 만족(Fine)하시나요?"
+          content="당신은 인하대학교에 만족(Fine)하시나요? 개발자 : 인하대학교 총대의원회 집행국 선전편집국 국장 김현조 (Mei)"
         />
         <meta property="og:image" content="/main/posterOG.png" />
-        개발자 : 인하대학교 총대의원회 집행국 선전편집국 국장 김현조 (Mei)
       </Head>
       <BackGround>
         <StyledLayout backgroundColor="none" minHeight="700px">

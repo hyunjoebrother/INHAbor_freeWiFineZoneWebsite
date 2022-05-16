@@ -14,8 +14,8 @@ const Title = styled.div`
   font-size: 16.6px;
   text-align: center;
   line-height: 1.3;
-  letter-spacing: -2px;
   font-weight: 600;
+  letter-spacing: -0.8px;
 `;
 
 const StyledTitle = styled.div`
@@ -25,7 +25,6 @@ const StyledTitle = styled.div`
   text-align: center;
   font-weight: 600;
   line-height: 1.3;
-  letter-spacing: -2px;
 `;
 
 const Subtitle = styled.div`

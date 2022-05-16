@@ -19,9 +19,9 @@ const Slider = styled.img`
   margin-top: -20px;
   height: 200px;
   animation-name: ${(props) => props.animation && moveLeft};
-  animation-duration: 4s;
-  animation-iteration-count: 1;
-  animation-delay: 0.5s;
+  animation-duration: 6s;
+  animation-iteration-count: 2;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 `;
 

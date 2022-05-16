@@ -28,9 +28,9 @@ export default function Start() {
           <LoginModal />
           <Margin size="20" />
           <StyledText color="#fff">
-            비밀번호를 입력하고 '연결하기'를 눌러주세요
+            5월 17일부터 Free Wi-Fine Zone에 연결할 수 있습니다.
             <br />
-            화면이 넘어가지 않으면 비밀번호를 다시 확인해주세요
+            많은 관심 부탁드립니다.
           </StyledText>
         </Layout>
       </BackGround>

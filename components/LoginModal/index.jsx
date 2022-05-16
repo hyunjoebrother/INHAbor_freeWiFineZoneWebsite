@@ -67,7 +67,7 @@ export default function LoginModal() {
 
   const requestLogin = () => {
     setActive((active) => !active);
-    if (password === "fine0517") {
+    if (password === "fine0517byMei") {
       {
         console.log("연결성공");
         active && <Toast msg={"연결에 성공했습니다."} width={"100%"} />;
@@ -97,7 +97,7 @@ export default function LoginModal() {
         <Margin size="10" />
         <StyledButton onClick={requestLogin}>연결하기</StyledButton>
 
-        {active && <Toast msg={"연결중입니다"} width={"100%"} />}
+        {active && <Toast msg={"아직 연결할 수 없습니다"} width={"100%"} />}
       </ElementWrapper>
     </LoginModalWrapper>
   );

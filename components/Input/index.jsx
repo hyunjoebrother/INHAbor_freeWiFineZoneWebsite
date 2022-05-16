@@ -11,9 +11,9 @@ const Input = styled.input`
   box-sizing: border-box;
   outline: none;
   background-color: ${(props) =>
-    props.backgroundColor ? props.backgroundColor : "#f8f8f8"};
+    props.backgroundColor ? props.backgroundColor : "#dfdfdf"};
   &::placeholder {
-    color: #aaa;
+    color: #000;
     font-size: 12px;
   }
   &:focus {

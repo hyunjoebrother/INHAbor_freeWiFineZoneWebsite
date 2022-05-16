@@ -10,12 +10,13 @@ import Toast from "../Toast";
 const LoginModalWrapper = styled.div`
   width: 300px;
   height: 140px;
+  padding-top: 16px;
   border-radius: 20px;
   display: flex;
   position: relative;
   align-items: center;
   justify-content: space-around;
-  background-color: #c4c4c4;
+  background-color: #fff;
   z-index: 9;
 `;
 
@@ -23,6 +24,7 @@ const ElementWrapper = styled.div`
   display: inline;
   text-align: center;
   justify-content: ${(props) => props.justify};
+
   width: 100%;
 `;
 
@@ -36,16 +38,18 @@ const StyledButton = styled(Button)`
   width: 100px;
   height: 28px;
   display: flex;
+  font-size: 12px;
   text-align: center;
   align-items: center;
   justify-content: center;
   margin: auto;
-  border: 2px solid #0065b3;
+  border: 1.6px solid #bdd4e7;
   background-color: #fff;
-  color: #0065b3;
+  font-weight: 550;
+  color: #bdd4e7;
   cursor: pointer;
   &:hover {
-    background-color: #0065b3;
+    background-color: #bdd4e7;
     color: #fff;
   }
 `;
@@ -83,14 +87,14 @@ export default function LoginModal() {
         <StyledText color="#000" size="14">
           "INHA_UNIV_2022G"에 대한 암호 입력
         </StyledText>
-        <Margin size="24" />
+        <Margin size="14" />
         <Input
           password
           placeholder="비밀번호를 입력해주세요."
           type="password"
           onChange={(e) => setPassword(e.target.value)}
         />
-        <Margin size="12" />
+        <Margin size="8" />
         <StyledButton onClick={requestLogin}>연결하기</StyledButton>
 
         {active && <Toast msg={"연결중입니다"} width={"100%"} />}

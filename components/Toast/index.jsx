@@ -12,7 +12,7 @@ const qrPopUp = keyframes`
 `;
 const ToastMsgBox = styled.div`
   left: 50%;
-  top: 30%;
+  top: 37%;
   margin: 0 auto;
   position: absolute;
   bottom: 15%;

@@ -13,7 +13,7 @@ const Input = styled.input`
   background-color: ${(props) =>
     props.backgroundColor ? props.backgroundColor : "#dfdfdf"};
   &::placeholder {
-    color: #000;
+    color: #afafaf;
     font-size: 12px;
   }
   &:focus {

@@ -10,7 +10,7 @@ import Toast from "../Toast";
 const LoginModalWrapper = styled.div`
   width: 300px;
   height: 140px;
-  padding-top: 16px;
+  padding-top: 12px;
   border-radius: 20px;
   display: flex;
   position: relative;
@@ -87,14 +87,14 @@ export default function LoginModal() {
         <StyledText color="#000" size="14">
           "INHA_UNIV_2022G"에 대한 암호 입력
         </StyledText>
-        <Margin size="14" />
+        <Margin size="12" />
         <Input
           password
           placeholder="비밀번호를 입력해주세요."
           type="password"
           onChange={(e) => setPassword(e.target.value)}
         />
-        <Margin size="8" />
+        <Margin size="10" />
         <StyledButton onClick={requestLogin}>연결하기</StyledButton>
 
         {active && <Toast msg={"연결중입니다"} width={"100%"} />}

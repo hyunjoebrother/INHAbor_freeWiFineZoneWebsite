@@ -12,7 +12,7 @@ const BackGround = styled.div`
 
 const StyledText = styled(Text)`
   color: ${(props) => props.color};
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   margin: auto;
   text-align: center;

@@ -16,7 +16,8 @@ const Wrapper = styled.div`
 
 const Slider = styled.img`
   transform: translateX(0px);
-  height: 270px;
+  margin-top: -20px;
+  height: 200px;
   animation-name: ${(props) => props.animation && moveLeft};
   animation-duration: 4s;
   animation-iteration-count: 1;
@@ -26,7 +27,7 @@ const Slider = styled.img`
 
 const AnimationA = ({ animation }) => (
   <Wrapper>
-    <Slider animation={animation} src="/tutorial/slider.svg" />
+    <Slider animation={animation} src="/tutorial/inha.jpg" />
   </Wrapper>
 );
 

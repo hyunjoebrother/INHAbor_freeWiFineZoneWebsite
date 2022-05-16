@@ -21,14 +21,13 @@ const Wrapper = styled.div`
 `;
 
 const Insta = styled.img`
-  height: 120px;
-  width: 70%;
+  width: 100%;
   animation: ${heartBeat} 2s linear infinite;
 `;
 
-const AnimationD = ({ animation }) => (
+const AnimationD = () => (
   <Wrapper>
-    <Insta animation={animation} src="/login/main-icon.svg" />
+    <Insta src="/tutorial/wifiAnimate2.gif" />
   </Wrapper>
 );
 

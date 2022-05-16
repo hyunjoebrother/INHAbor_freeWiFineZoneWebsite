@@ -79,43 +79,59 @@ const Tutorial = () => {
       <StyledSlider {...settings}>
         <Item>
           <Template
-            animation={<AnimationA animation={focused === 0} />}
+            animation={<AnimationB animation={focused === 0} />}
             title={
               <>
                 감사합니다!
                 <br />
-                학우분의 작은 관심이 인하대학교에 연결되었습니다.
+                ✨학우분의 작은 관심이 연결되었습니다✨
               </>
             }
-            subtitle="올바른 학생사회와 학교를 위하여 계속해서 노력하는 인하대학교 총대의원회가 되겠습니다."
           />
         </Item>
         <Item>
           <Template
-            animation={<AnimationB animation={focused === 1} />}
+            animation={<AnimationC animation={focused === 1} />}
             title={<>이곳은 Free Wi-Fine ZONE입니다.</>}
             subtitle="당신은 인하대학교에 만족(Fine)히신가요?"
           />
         </Item>
         <Item>
           <Template
-            animation={<AnimationC animation={focused === 2} />}
+            animation={<AnimationA animation={focused === 2} />}
             title={
               <>
-                본 여론조사의 의미는,
-                <br />
-                학생과 학생자치기구, 그리고 학교 간의 연결과 소통
+                💡 학생과 학생자치기구, <br />
+                그리고 학교본부와의 연결
               </>
             }
-            subtitle="와이파이 연결이 약하고 끊기면 답답함과 불편함을 느끼듯
-            본 여론조사는 중요한 소통구입니다."
+            subtitle={
+              <>
+                와이파이 연결이 불안정하면 불편함을 느끼는 것처럼,
+                <br />본 여론조사는 <br />
+                학우분들의 목소리를 대변하는 소통 창구입니다.
+              </>
+            }
           />
         </Item>
         <Item>
           <Template
-            animation={<AnimationD animation={focused === 3} />}
-            title={"이곳은 Free Wi-Fine Zone입니다."}
-            subtitle="자유롭게(Free) 여러분의 의견을 들려주세요."
+            animation={<AnimationD />}
+            title={
+              <>
+                이곳은 Free Wi-Fine Zone입니다🔓
+                <br />
+                자유롭게(Free) <br />
+                여러분의 의견을 들려주세요📝
+              </>
+            }
+            subtitle={
+              <>
+                올바른 학생사회와 인하대학교의 도약을 위해
+                <br />
+                꾸준히 정진하는 총대의원회가 되겠습니다.
+              </>
+            }
             last
           />
         </Item>

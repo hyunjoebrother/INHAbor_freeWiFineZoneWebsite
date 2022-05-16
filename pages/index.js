@@ -10,6 +10,10 @@ const BackGround = styled.div`
   background: linear-gradient(#6a93cb, #7ee8fa);
 `;
 
+const StyledLayout = styled(Layout)`
+  min-height: 550px;
+`;
+
 const StyledText = styled(Text)`
   color: ${(props) => props.color};
   font-size: 10px;
@@ -23,7 +27,7 @@ export default function Start() {
   return (
     <>
       <BackGround>
-        <Layout backgroundColor="none">
+        <StyledLayout backgroundColor="none" minHeight="700px">
           <Margin size="100" />
           <LoginModal />
           <Margin size="20" />
@@ -32,7 +36,7 @@ export default function Start() {
             <br />
             많은 관심 부탁드립니다.
           </StyledText>
-        </Layout>
+        </StyledLayout>
       </BackGround>
     </>
   );

@@ -40,9 +40,7 @@ export default function Start() {
           content="당신은 인하대학교에 만족(Fine)하시나요?"
         />
         <meta property="og:image" content="/main/posterOG.png" />
-        <p>
-          개발자 : 인하대학교 총대의원회 집행국 선전편집국 국장 김현조 (Mei)
-        </p>
+        개발자 : 인하대학교 총대의원회 집행국 선전편집국 국장 김현조 (Mei)
       </Head>
       <BackGround>
         <StyledLayout backgroundColor="none" minHeight="700px">

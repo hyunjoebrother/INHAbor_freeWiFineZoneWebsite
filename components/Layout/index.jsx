@@ -4,8 +4,7 @@ import Flex from "../Flex";
 
 const Width = styled.div`
   height: 100% !important;
-  //min-height: 550px;
-  min-height: 1200px;
+  min-height: 700px;
   max-width: 400px;
   margin: 0 auto;
   padding: 50px;

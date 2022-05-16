@@ -67,13 +67,10 @@ export default function Template({ animation, title, subtitle, last }) {
           <Margin size={18} />
           <Subtitle>{subtitle}</Subtitle>
           <Margin size={40} />
-          <StyledButton
-            backgroundColor="#0065b3"
-            width="230"
-            height="50"
-            onClick={() => router.push("/login")}
-          >
-            여론조사 참여하기
+          <StyledButton backgroundColor="#0065b3" width="230" height="50">
+            <a href="https://www.instagram.com/inhabor_13/">
+              여론조사 참여하기
+            </a>
           </StyledButton>
         </>
       )}

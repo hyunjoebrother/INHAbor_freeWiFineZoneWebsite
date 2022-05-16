@@ -69,9 +69,7 @@ export default function Template({ animation, title, subtitle, last }) {
           <Subtitle>{subtitle}</Subtitle>
           <Margin size={34} />
           <StyledButton backgroundColor="#0065b3" width="230" height="50">
-            <a href="https://www.instagram.com/inhabor_13/">
-              여론조사 참여하기
-            </a>
+            <a href="https://forms.gle/3pFvAimAv3DPyxao9">여론조사 참여하기</a>
           </StyledButton>
         </>
       )}
